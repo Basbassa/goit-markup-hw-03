@@ -1,0 +1,152 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+
+.all-links :focus {
+  color: rgb(53, 93, 77);
+  cursor: pointer;
+}
+
+.description-h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0, 6em;
+  text-align: center;
+}
+
+.description-big-letters {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+}
+
+.description-small-letters {
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+}
+
+.description-main {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+  text-align: center;
+}
+
+.description-human {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+  /* TODO text-align: center; dodam jak poukładam zdjęcia na stronie */
+}
+
+.description-human-occupation {
+  font-size: 16px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+  /* TODO text-align: center; dodam jak poukładam zdjęcia na stronie */
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+}
+
+.font-footer-logo {
+  font-family: "Raleway", sans-serif;
+}
+
+.web {
+  color: rgb(33, 150, 243);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  letter-spacing: 0, 3em;
+}
+
+.studio {
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.studio-white {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.list-style {
+  list-style-type: none;
+}
+
+.nav-ul-a {
+  color: rgb(33, 33, 33);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0, 2em;
+}
+
+.nav-ul :hover {
+  color: rgb(33, 150, 243);
+}
+
+.header-mail-phone {
+  color: rgb(117, 117, 117);
+}
+
+.no-decoration {
+  text-decoration: none;
+}
+
+.description-bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0, 6em;
+  color: rgba(33, 33, 33, 1);
+}
+
+.description-normal {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0, 3em;
+  color: rgba(117, 117, 117, 1);
+}
+
+.header-background-color {
+  background-color: rgb(255, 255, 255);
+}
+
+.main-background-color {
+  background-color: rgb(255, 255, 255);
+}
+
+.footer-background-color {
+  background-color: rgb(47, 48, 58);
+}
+
+.address {
+  color: rgb(255, 255, 255);
+  font-style: normal;
+  font-size: 1.17;
+  line-height: 24px;
+  letter-spacing: 0, 3em;
+}
+
+.mail-hover :hover {
+  text-decoration: underline;
+}
+
+.address-grey {
+  color: rgba(255, 255, 255, 0.6);
+}
