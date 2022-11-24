@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-button {
+.button-main {
   background-color: rgba(33, 150, 243, 1);
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
