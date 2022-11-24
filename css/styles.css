@@ -8,11 +8,31 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-  letter-spacing: 0, 06em;
+  letter-spacing: 0.06em;
   text-align: center;
   width: 200px;
   height: 50px;
   border-radius: 4px;
+}
+
+.button-portf {
+  background-color: rgba(245, 244, 250, 1);
+  color: rgba(33, 33, 33, 1);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.buttons-portf-hov :hover {
+  background-color: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+
+.buttons-portf-hov :focus {
+  border-color: rgba(47, 48, 58, 1);
 }
 
 .container {
