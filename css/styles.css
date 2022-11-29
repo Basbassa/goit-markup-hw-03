@@ -17,8 +17,18 @@
   color: hsla(0, 0%, 100%, 1);
 }
 
+.nav-flex {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
 .flex {
   display: flex;
+}
+
+.a-p-k-inline li {
+display:inline;
 }
 
 body {
