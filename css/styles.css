@@ -12,15 +12,15 @@
 }
 
 .box-h1 {
-  
-  background-color: hsla(235, 10%, 21%, 1);
-  color: hsla(0, 0%, 100%, 1);
+  background-color: rgba(47, 48, 58, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .nav-flex {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+  gap: 46px;
 }
 
 .flex {
@@ -28,7 +28,7 @@
 }
 
 .a-p-k-inline li {
-display:inline;
+  display: inline;
 }
 
 body {
@@ -48,8 +48,6 @@ body {
   height: 50px;
   border-radius: 4px;
   margin: 0 auto;
-  
-
 }
 
 .button-portf {
