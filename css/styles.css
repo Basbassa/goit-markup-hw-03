@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -33,11 +42,6 @@ body {
 
 .buttons-portf-hov :focus {
   border-color: rgba(47, 48, 58, 1);
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .uppercase {
