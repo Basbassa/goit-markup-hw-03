@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -43,6 +45,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 20px) / 3);
+  gap: 30px;
 }
 
 body {
@@ -79,6 +82,7 @@ body {
 .buttons-portf-hov :hover {
   background-color: rgba(33, 150, 243, 1);
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .buttons-portf-hov :focus {
