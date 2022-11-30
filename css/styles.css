@@ -29,6 +29,7 @@ a {
 .box-h1 {
   background-color: rgba(47, 48, 58, 1);
   color: rgba(255, 255, 255, 1);
+
 }
 
 .nav-flex {
@@ -42,6 +43,12 @@ a {
   align-items: center;
   justify-content: flex-end;
   gap: 50px;
+}
+
+.flex-main {
+  display: flex;
+  gap: 30px;
+
 }
 
 .algin-items-center {
