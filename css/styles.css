@@ -15,6 +15,10 @@ a {
   padding: 94px 0px;
 }
 
+.nav-border-bottom {
+  border-bottom: 2px solid #ccc;
+}
+
 .box-h1 {
   background-color: rgba(47, 48, 58, 1);
   color: rgba(255, 255, 255, 1);
@@ -30,6 +34,10 @@ a {
   display: flex;
 }
 
+.flex-buttons-portf {
+  display: flex;
+  justify-content: center;
+}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -59,6 +67,7 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 4px;
+  margin-right: 8px;
 }
 
 .buttons-portf-hov :hover {
@@ -169,6 +178,7 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0, 2em;
+  padding: 32px;
 }
 
 .nav-ul :hover {
