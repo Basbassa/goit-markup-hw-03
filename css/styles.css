@@ -39,6 +39,12 @@ a {
   justify-content: center;
 }
 
+.flex-images-portf {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 20px) / 3);
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
