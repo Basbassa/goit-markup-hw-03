@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -20,16 +24,12 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
-  gap: 46px;
 }
 
 .flex {
   display: flex;
 }
 
-.a-p-k-inline li {
-  display: inline;
-}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -158,6 +158,11 @@ body {
   list-style-type: none;
 }
 
+.nav-ul {
+  display: flex;
+  gap: 46px;
+}
+
 .nav-ul-a {
   color: rgb(33, 33, 33);
   font-weight: 500;
@@ -172,10 +177,6 @@ body {
 
 .header-mail-phone {
   color: rgb(117, 117, 117);
-}
-
-.no-decoration {
-  text-decoration: none;
 }
 
 .description-bold {
