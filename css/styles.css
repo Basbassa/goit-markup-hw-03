@@ -76,13 +76,14 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
   border-radius: 4px;
+  padding: 6px 22px;
   margin-right: 8px;
+  margin-bottom: 50px;
 }
 
 .buttons-portf-hov :hover {
   background-color: rgba(33, 150, 243, 1);
   cursor: pointer;
-  text-decoration: underline;
 }
 
 .buttons-portf-hov :focus {
