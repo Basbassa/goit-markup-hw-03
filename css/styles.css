@@ -28,8 +28,19 @@ a {
 
 .nav-flex {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-flex2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 50px;
+}
+
+.algin-items-center {
+  align-items: center;
 }
 
 .flex {
@@ -165,6 +176,7 @@ body {
   font-weight: 400;
   font-size: 26px;
   line-height: 1.17;
+  margin-right: 93px;
 }
 
 .studio-white {
@@ -180,7 +192,6 @@ body {
 
 .nav-ul {
   display: flex;
-  gap: 46px;
 }
 
 .nav-ul-a {
