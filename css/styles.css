@@ -138,12 +138,15 @@ body {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
+  color: rgba(33, 33, 33, 1);
 }
 
 .description-small-letters {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
+  color: rgba(117, 117, 117, 1);
 }
 
 .description-main {
