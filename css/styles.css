@@ -68,6 +68,7 @@ a {
   flex-wrap: wrap;
   flex-basis: calc((100% - 20px) / 3);
   gap: 30px;
+  margin-bottom: 94px;
 }
 
 body {
@@ -201,6 +202,10 @@ body {
   font-weight: 400;
   font-size: 26px;
   line-height: 1.17;
+}
+
+.margin-bottom {
+  margin-bottom: 94px;
 }
 
 .list-style {
