@@ -29,8 +29,7 @@ a {
 .box-h1 {
   background-color: rgba(47, 48, 58, 1);
   color: rgba(255, 255, 255, 1);
- text-align: center;
-
+  text-align: center;
 }
 
 .nav-flex {
@@ -49,7 +48,6 @@ a {
 .flex-main {
   display: flex;
   gap: 30px;
-
 }
 
 .algin-items-center {
@@ -90,7 +88,6 @@ body {
   border-radius: 4px;
   margin-top: 40px;
   margin-bottom: 200px;
-  
 }
 
 .button-portf {
@@ -110,6 +107,7 @@ body {
 .buttons-portf-hov :hover {
   background-color: rgba(33, 150, 243, 1);
   cursor: pointer;
+  color: rgba(255, 255, 255, 1);
 }
 
 .buttons-portf-hov :focus {
