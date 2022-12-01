@@ -155,19 +155,23 @@ body {
   text-align: center;
 }
 
+.main-page-other-background {
+  background-color: rgba(245, 244, 250, 1);
+}
+
 .description-human {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
-  /* TODO text-align: center; dodam jak poukładam zdjęcia na stronie */
+  text-align: center;
 }
 
 .description-human-occupation {
   font-size: 16px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
-  /* TODO text-align: center; dodam jak poukładam zdjęcia na stronie */
+  text-align: center;
 }
 
 .logo {
