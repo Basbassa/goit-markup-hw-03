@@ -29,16 +29,29 @@ a {
 :root {
   --color-mainblue: rgba(33, 150, 243, 1);
   --color-white: rgba(255, 255, 255, 1);
+  --color-half-white: rgba(245, 244, 250, 1);
+  --color-h1: rgba(47, 48, 58, 1);
+  --color-footer: rgb(47, 48, 58);
+  --color-border-figacap: rgba(238, 238, 238, 1);
+  --color-addres-grey: rgba(255, 255, 255, 0.6);
+  --color-addres: rgb(255, 255, 255);
+  --color-button-portf: rgba(33, 33, 33, 1);
+  --color-focus: rgb(53, 93, 77);
+  --color-description-small-letters: rgba(117, 117, 117, 1);
+  --color-studio: rgb(0, 0, 0);
+  --color-nav-ul-a: rgb(33, 33, 33);
+  --color-header-mail-phone: rgb(117, 117, 117);
+  --color-nav-border: #ccc;
 }
 
 .nav-border-bottom {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 2px solid var(--color-nav-border);
   padding: 32px;
 }
 
 .box-h1 {
-  background-color: rgba(47, 48, 58, 1);
-  color: rgba(255, 255, 255, 1);
+  background-color: var(--color-h1);
+  color: var(--color-white);
   text-align: center;
   margin-top: -94px;
 }
@@ -85,7 +98,7 @@ a {
 .button-main {
   display: inline-block;
   background-color: var(--color-mainblue);
-  color: rgba(255, 255, 255, 1);
+  color: var(--color-white);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
@@ -100,8 +113,8 @@ a {
 }
 
 .button-portf {
-  background-color: rgba(245, 244, 250, 1);
-  color: rgba(33, 33, 33, 1);
+  background-color: var(--color-half-white);
+  color: var(--color-button-portf);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -117,11 +130,11 @@ a {
 .buttons-portf-hov :hover {
   background-color: var(--color-mainblue);
   cursor: pointer;
-  color: rgba(255, 255, 255, 1);
+  color: var(--color-white);
 }
 
 .buttons-portf-hov :focus {
-  border-color: rgba(47, 48, 58, 1);
+  border-color: var(--color-h1);
 }
 
 .uppercase {
@@ -129,7 +142,7 @@ a {
 }
 
 .all-links :focus {
-  color: rgb(53, 93, 77);
+  color: var(--color-focus);
   cursor: pointer;
 }
 
@@ -147,7 +160,7 @@ a {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
-  color: rgba(33, 33, 33, 1);
+  color: var(--color-button-portf);
   margin-bottom: 10px;
 }
 
@@ -156,7 +169,7 @@ a {
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0, 3em;
-  color: rgba(117, 117, 117, 1);
+  color: var(--color-description-small-letters);
 }
 
 .description-main {
@@ -168,7 +181,7 @@ a {
 }
 
 .main-page-other-background {
-  background-color: rgba(245, 244, 250, 1);
+  background-color: var(--color-half-white);
 }
 
 .img-main-no-gap {
@@ -210,7 +223,7 @@ a {
 }
 
 .studio {
-  color: rgb(0, 0, 0);
+  color: var(--color-studio);
   font-weight: 400;
   font-size: 26px;
   line-height: 1.17;
@@ -218,7 +231,7 @@ a {
 }
 
 .studio-white {
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
   font-weight: 400;
   font-size: 26px;
   line-height: 1.17;
@@ -241,7 +254,7 @@ a {
 }
 
 .nav-ul-a {
-  color: rgb(33, 33, 33);
+  color: var(--color-nav-ul-a);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
@@ -254,7 +267,7 @@ a {
 }
 
 .header-mail-phone {
-  color: rgb(117, 117, 117);
+  color: var(--color-header-mail-phone);
 }
 
 .description-bold {
@@ -262,25 +275,25 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0, 6em;
-  color: rgba(33, 33, 33, 1);
+  color: var(--color-button-portf);
 }
 
 .description-normal {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0, 3em;
-  color: rgba(117, 117, 117, 1);
+  color: var(--color-description-small-letters);
 }
 
 .figure-border {
-  border: 1px solid rgba(238, 238, 238, 1);
+  border: 1px solid var(--color-border-figacap);
 }
 
 .figcaption-main {
-  background-color: rgba(255, 255, 255, 1);
-  border-right: 2px solid rgba(238, 238, 238, 1);
-  border-left: 2px solid rgba(238, 238, 238, 1);
-  border-bottom: 2px solid rgba(238, 238, 238, 1);
+  background-color: var(--color-white);
+  border-right: 2px solid var(--color-border-figacap);
+  border-left: 2px solid var(--color-border-figacap);
+  border-bottom: 2px solid var(--color-border-figacap);
 }
 
 .figcaption-portf {
@@ -288,19 +301,19 @@ a {
 }
 
 .header-background-color {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-white);
 }
 
 .main-background-color {
-  background-color: rgb(255, 255, 255);
+  background-color: var(--color-white);
 }
 
 .footer-background-color {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-footer);
 }
 
 .address {
-  color: rgb(255, 255, 255);
+  color: var(--color-addres);
   font-style: normal;
   font-size: 1.17;
   line-height: 24px;
@@ -312,5 +325,5 @@ a {
 }
 
 .address-grey {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--color-addres-grey);
 }
