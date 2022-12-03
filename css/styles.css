@@ -103,6 +103,7 @@ body {
   padding: 6px 22px;
   margin-right: 8px;
   margin-bottom: 50px;
+  border: 0;
 }
 
 .buttons-portf-hov :hover {
