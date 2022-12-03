@@ -26,6 +26,11 @@ a {
   padding: 94px 0px;
 }
 
+:root {
+  --color-mainblue: rgba(33, 150, 243, 1);
+  --color-white: rgba(255, 255, 255, 1);
+}
+
 .nav-border-bottom {
   border-bottom: 2px solid #ccc;
   padding: 32px;
@@ -79,7 +84,7 @@ a {
 
 .button-main {
   display: inline-block;
-  background-color: rgba(33, 150, 243, 1);
+  background-color: var(--color-mainblue);
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-size: 16px;
@@ -110,7 +115,7 @@ a {
 }
 
 .buttons-portf-hov :hover {
-  background-color: rgba(33, 150, 243, 1);
+  background-color: var(--color-mainblue);
   cursor: pointer;
   color: rgba(255, 255, 255, 1);
 }
@@ -197,7 +202,7 @@ a {
 }
 
 .web {
-  color: rgb(33, 150, 243);
+  color: var(--color-mainblue);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
@@ -245,7 +250,7 @@ a {
 }
 
 .nav-ul :hover {
-  color: rgb(33, 150, 243);
+  color: var(--color-mainblue);
 }
 
 .header-mail-phone {
