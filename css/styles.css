@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -24,6 +28,7 @@ a {
 
 .nav-border-bottom {
   border-bottom: 2px solid #ccc;
+  padding: 32px;
 }
 
 .box-h1 {
@@ -69,10 +74,6 @@ a {
   flex-basis: calc((100% - 20px) / 3);
   gap: 30px;
   margin-bottom: 94px;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 .button-main {
